@@ -146,6 +146,11 @@
                 forwards ? startIndex++ : startIndex--;
             }
         }
+        if (count < 3 && allStatements[startIndex].statement.length > 1000) {
+             while (allStatements[startIndex].statement.length > 1000) {
+                forwards ? startIndex++ : startIndex--;
+            }
+        }
 
 
         if (startIndex >= allStatements.length) {
