@@ -11,18 +11,24 @@
     href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
   <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
     body {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
-        height: 98vh;
-        width: 98vw;
+        justify-content: center;
+        width: 100%;
+        background-color: #2B2C33;
+        overflow-x: hidden;
         background-color: #2B2C33;
         color: #ffffff;
         font-family: 'Funnel Sans', 'Arial', sans-serif;
         overflow-x: hidden;
     }
+
+    
 
     #content {
         display: flex;
@@ -69,7 +75,7 @@
         justify-content: center;
         text-align: center;
         height: 100%;
-        width: 100%;
+        width: 90%;
         font-size: 1.2rem;
     }
     button {
@@ -92,6 +98,11 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
+    }
+    @media screen and (max-width: 768px) {
+        #buttons {
+            margin-top: 10px;
+        }
     }
   </style>
 
