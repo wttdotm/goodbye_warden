@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodbye Warden</title>
+    <script src="all_words_with_statements.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            width: 100vw;
+            background-color: #2B2C33;
+            color: #ffffff;
+            font-family: 'Funnel Sans', 'Arial', sans-serif;
+        }
+
+        #content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 80%;
+            /* max-height: 80%; */
+            width: 80%;
+            padding-bottom: 30px;
+        }
+
+        #statement {
+            /* max-height: 80%; */
+            /* overflow-y: auto; */
+            font-size: 1.3rem;
+            max-width: 100%;
+        }
+
+        #landing {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            font-size: 1.2rem;
+        }
+
+        button {
+            background-color: #2B2C33;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Funnel Sans', 'Arial', sans-serif;
+            font-size: 1.2rem;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+
+        #buttons {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        a {
+            color: #ffffff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="landing" style="max-width: 80%;">
+        <p>Goodbye Warden is a project by an anonymous creator that went offline in 2021. It is resurrected here by <a href="https://wttdotm.com" target="_blank">Morry Kolman (WTTDOTM).</a> The original project can still be found on <a href="https://web.archive.org/web/20210223083243/https://www.goodbyewarden.com/" target="_blank">the Wayback Machine</a>.</p>
+            <p>The death penalty is a moral stain on our society. Since 1973, <a href="https://deathpenaltyinfo.org/policy-issues/policy/innocence" target="_blank">at least 202 people</a> who were wrongly convicted and sentenced to death in the U.S. have been exonerated.</p>
+            <p>Learn more at the <a href="https://deathpenaltyinfo.org" target="_blank">Death Penalty Information Center</a>.</p>
+        <button onclick="window.location.href='index.html'">Home</button>
+        <p style="font-size: 0.8rem; color: #ffffff88;">Open Source - <a style="font-size: 0.8rem; color: #ffffff88;" href="https://github.com/wttdotm/goodbye_warden" target="_blank">GitHub</a></p>
+    </div>
+
+    <script>
+
+        const activateSite = () => {
+            document.getElementById('content').style.display = 'flex';
+            document.getElementById('landing').style.display = 'none';
+            document.getElementById('previousButton').style.display = 'inline-block';
+            document.getElementById('nextButton').style.display = 'inline-block';
+            document.getElementById('aboutButton').style.display = 'inline-block';
+        }
+
+        let firstTime = true;
+        let startIndex = Math.floor(Math.random() * allStatements.length);
+        let count = 0;
+        const getStatement = (forwards = true) => {
+            count++;
+            //fwd or back
+            if (forwards) {
+                startIndex++;
+            } else {
+                startIndex--;
+            }
+
+            //controlling for no statement
+            if (firstTime) {
+                while (allStatements[startIndex].statement.includes('declined to make')) {
+                    startIndex = Math.floor(Math.random() * allStatements.length);
+                }
+            }
+            if (count < 10 && allStatements[startIndex].statement.includes('declined to make')) {
+                while (allStatements[startIndex].statement.includes('declined to make')) {
+                    forwards ? startIndex++ : startIndex--;
+                }
+            }
+
+
+            if (startIndex >= allStatements.length) {
+                forwards = false;
+                startIndex = 0;
+            }
+            if (startIndex < 0) {
+                forwards = true;
+                startIndex = allStatements.length - 1;
+            }
+            console.log('getStatement', startIndex, forwards);
+
+            const statement = document.getElementById('statement');
+            const name = document.getElementById('name');
+            //const link = document.getElementById('link');
+            if (firstTime) {
+                while (allStatements[startIndex].statement.includes('declined to make')) {
+                    startIndex = Math.floor(Math.random() * allStatements.length);
+                }
+            }
+            statement.innerHTML = allStatements[startIndex].statement.replace(/\n/g, '<br/><br/>');
+            name.innerHTML = "<i>- " + allStatements[startIndex].firstName + "<br/><br/><br/><br/></i>";
+            //link.innerHTML = "<a href='" + allStatements[startIndex].link + "'>View on TDCJ</a>";
+
+            firstTime = false;
+        }
+        getStatement();
+
+    </script>
+</body>
+
+</html>
