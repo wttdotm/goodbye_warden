@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Goodbye Warden</title>
   <meta name="description" content="Goodbye Warden - last words of Texas death row inmates.">
   <meta name="keywords" content="Goodbye Warden, death row, last words, Texas, executions, inmate statements, criminal justice">
   <meta name="author" content="Goodbye Warden">
   <meta name="robots" content="index, follow">
+
+  <meta property="og:image" content="./goodbye_warden_link_preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="./goodbye_warden_link_preview.png">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Goodbye Warden">
@@ -27,7 +31,14 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
-  <style>
+    <style>
+      /* Prevent double tap to zoom on mobile by disabling double-tap zoom */
+      html, body {
+        touch-action: manipulation;
+      }
+      input, textarea, select, button {
+        touch-action: manipulation;
+      }
     html, body {
         height: 100%;
         margin: 0;
@@ -120,6 +131,10 @@
         #buttons {
             margin-top: 10px;
         }
+        #statement {
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
     }
   </style>
 
@@ -155,69 +170,72 @@
     let startIndex = Math.floor(Math.random() * allStatements.length);
     let count = 0;
     const getStatement = (forwards = true) => {
-        count++;
-        //fwd or back
-        if (forwards) {
-            startIndex++;
-        } else {
-            startIndex--;
-        }
-         
-        //controlling for no statement
-        if (firstTime) {
-            while (allStatements[startIndex].statement.includes('declined to make')) {
-                startIndex = Math.floor(Math.random() * allStatements.length);
+            count++;
+
+            // move once in the requested direction
+            startIndex += forwards ? 1 : -1;
+
+            // wrap immediately
+            if (startIndex >= allStatements.length) startIndex = 0;
+            if (startIndex < 0) startIndex = allStatements.length - 1;
+
+            let attempts = 0;
+            let idx = startIndex;
+
+            // search for the next valid statement (bounded)
+            while (attempts < allStatements.length) {
+                const item = allStatements[idx];
+                if (!item || !item.statement) break;
+
+                const text = item.statement;
+
+                // filtering rules
+                if (firstTime && text.includes('declined to make')) {
+                    // reject
+                } else if (count < 10 && text.includes('declined')) {
+                    // reject
+                } else if ((count < 3 && text.length > 300) || (count < 10 && text.length < 100)) {
+                    // reject
+                } else {
+                    // ✅ valid
+                    startIndex = idx;
+                    break;
+                }
+
+                // advance
+                idx += forwards ? 1 : -1;
+
+                // wrap
+                if (idx >= allStatements.length) idx = 0;
+                if (idx < 0) idx = allStatements.length - 1;
+
+                attempts++;
             }
-        }
-        if (count < 10 && allStatements[startIndex].statement.includes('declined to make')) {
-             while (allStatements[startIndex].statement.includes('declined to make')) {
-                forwards ? startIndex++ : startIndex--;
-            }
-        }
-        if (count < 3 && allStatements[startIndex].statement.length > 1000) {
-             while (allStatements[startIndex].statement.length > 1000) {
-                forwards ? startIndex++ : startIndex--;
-            }
-        }
+
+            console.log('getStatement', startIndex, forwards);
+
+            const statementEl = document.getElementById('statement');
+            const nameEl = document.getElementById('name');
+
+            // reset animation
+            statementEl.classList.remove('fade-up-in');
+            nameEl.classList.remove('fade-up-in');
+            void statementEl.offsetWidth;
+
+            const current = allStatements[startIndex];
+
+            // render
+            statementEl.innerHTML = current.statement.replace(/\n/g, '<br/><br/>');
+            nameEl.innerHTML = `<i>- ${current.firstName}<br/><br/><br/><br/></i>`;
+
+            // animate
+            statementEl.classList.add('fade-up-in');
+            nameEl.classList.add('fade-up-in');
+
+            firstTime = false;
+        };
 
 
-        if (startIndex >= allStatements.length) {
-            forwards = false;
-            startIndex = 0;
-        }
-        if (startIndex < 0) {
-            forwards = true;
-            startIndex = allStatements.length - 1;
-        }
-        console.log('getStatement', startIndex, forwards);
-
-        const statement = document.getElementById('statement');
-        const name = document.getElementById('name');
-        //const link = document.getElementById('link');
-        if (firstTime) {
-            while(allStatements[startIndex].statement.includes('declined to make')) {
-                startIndex = Math.floor(Math.random() * allStatements.length);
-            }
-        }
-        
-        // Remove animation class to reset
-        statement.classList.remove('fade-up-in');
-        name.classList.remove('fade-up-in');
-        
-        // Force reflow to ensure class removal is processed
-        void statement.offsetWidth;
-        
-        // Update content
-        statement.innerHTML = allStatements[startIndex].statement.replace(/\n/g, '<br/><br/>');
-        name.innerHTML = "<i>- " + allStatements[startIndex].firstName + "<br/><br/><br/><br/></i>";
-        //link.innerHTML = "<a href='" + allStatements[startIndex].link + "'>View on TDCJ</a>";
-        
-        // Add animation class to trigger fade up + in
-        statement.classList.add('fade-up-in');
-        name.classList.add('fade-up-in');
-
-        firstTime = false;
-    }
     getStatement();
     
 </script>
