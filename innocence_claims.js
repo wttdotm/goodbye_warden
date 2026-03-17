@@ -1,0 +1,296 @@
+let innocenceClaims = [
+  {
+    "lastName": "Cantu",
+    "firstName": "Ivan",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/cantuivanlast.html",
+    "statement": "I'd like to address the Kitchens and Mosqueda Families. I want you to know that I never killed James and Amy. And if I did, if I knew who did, you would've been the first to know any information I would've had that would've helped to bring justice to James and Amy I would've shared. I want you all to know that I don't think that this situation here will bring you closure if it does. If this is what it takes or have any \r\n  reservations off in your mind, then so be it. This is not going to help you guys and I want you to know \r\n  from me that it never occurred. No. I want all of you to know I did not kill James and Amy. Okay. Now that I have addressed them, I would like to address and thank my attorney Gene Bund, I'd like to thank my mom, Sylvia Cantu, Matt Duff, Michael Frazier, and of course sister Helen, everyone that came to my rescue to help me. Including my family and my friends and my supporters. Everyone that blessed me to be in this position and it was an honor to work with all of them but I would especially like to thank Matt Duff for believing in me and digging deep and unraveling the case that he did to prove to the world that I do not belong on this gurney, to keep up the fight and to keep searching and doing what needs to be \r\n  done to find all the answers and bring closure to the truth to the Kitchens and Mosqueda Family. Last, I'd like to close by telling Michael that I love her, and I will always be with her. Matthew 6:21 lgfyus love forever that's it that's all I got to say. Warden I'm ready. "
+  },
+  {
+    "lastName": "Brown, Jr.",
+    "firstName": "Arthur",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/brownarthurlast.html",
+    "statement": "What is occurring  here tonight is not justice, it’s murder of an innocent man for a murder that  occurred in 1992. For the last 30 years I’ve proven my innocence to the courts,  but the courts blocked me and then refused me access to the ballistics for 20  years; I’ve proven facts and ballistics to be false. It’s been 30 years now,  the state refused to turn over evidence. Nine of the ten trial motions were  filled for discovery of evidence, but each were denied each time. I asked for  DNA, I was denied DNA. My co-defendant was executed in 2006 and if I’m innocent  he was innocent and they killed an innocent man, and the state doesn’t want the  truth to come out. They won’t allow me DNA. The victim’s son identified on  audio tape it wasn’t me or the co-defendant. The state hid the evidence so long  and good that my own attorneys couldn’t find it. Tonight, Texas will kill a second  innocent man for a murder that occurred in 1992. I have no further words."
+  },
+  {
+    "lastName": "Hughes",
+    "firstName": "Preston",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/hughesprestonlast.html",
+    "statement": "Yes, Warden. Mom, Celeste: Please know I'm innocent and I love you both. Please continue to fight for my innocence even though I'm gone. John, Cort, Allen, Barbara, Louis, and Anna: Thank you for helping me and trying to save my life. I love you. Give everybody my love. Jason, thank you for your friendship. Thank Laura, too. I love all of you. Bye. Ok, Warden."
+  },
+  {
+    "lastName": "Green",
+    "firstName": "Jonathan",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/greenjonathanlast.html",
+    "statement": "I'm an innocent man. I did not kill anyone. Ya'll are killing an innocent man. My left arm is killing me. It hurts bad.\n  "
+  },
+  {
+    "lastName": "Thurmond",
+    "firstName": "Keith",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/thurmondkeithlast.html",
+    "statement": "All I want to say is I'm innocent, I didn't kill my wife. Jack Leary shot my wife then her dope dealer Guy Fernandez. Don't hold it against me, Bill. I swear to God I didn't kill her. Go ahead and finish it off. You can taste it. "
+  },
+  {
+    "lastName": "Kerr",
+    "firstName": "Cary",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/kerrcarylast.html",
+    "statement": "Yes, Tell my sister Tracey, I love you. Nicole, thank you and I love you. Wanda and all of my friends, I love you and thank you for your support. To the State of Texas, I am an innocent man. Never trust a court-appointed attorney. I am ready Warden. Thank you, Brad, I'm sorry. Check that DNA, check Scott. Here we go. Lord Jesus, Jesus."
+  },
+  {
+    "lastName": "Blanton",
+    "firstName": "Reginald",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/blantonreginaldlast.html",
+    "statement": "Yes I do. I know ya'lls pain, believe me I shed plenty of tears behind Carlos. Carlos was my friend. I didn't murder him. This what is happening right now is an injustice. This doesn't solve anything. This will not bring back Carlos. Ya'll fought real hard here to prove my innocence. This is only the beginning. I love each and everyone dearly. Dre My queen. I love you. Yaws, Junie I love yall. Stay strong, continue to fight. They are fixing to pump my veins with a lethal drug the American Veterinary Association won't even allow to be used on dogs. I say I am worse off than a dog. They want to kill me for this; I am not the man that did this. Fight on. I will see ya'll again. That's all I can say.  "
+  },
+  {
+    "lastName": "Pondexter",
+    "firstName": "Willie",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/pondexterwillielast.html",
+    "statement": " Well, first I want to say. They may execute me but they can't punish me because they can't execute an innocent man. I am not mad. Jack Herrington, I am not mad. You were given a job to do but that's neither here nor there. I am not mad. I am disappointed by the courts. I feel like I was upset and let down by them. But that's O.K. I just played the hand that life dealt me. Look at my life and learn from it. I am very remorseful about what I did. I apologize. To my kids, Daddy loves you. Irene Wilcox, Thank you. It's been a long journey. Thank you for being there. Tell Jack hello. I know I am wrong but I am asking ya'll to forgive me.  "
+  },
+  {
+    "lastName": "Taylor",
+    "firstName": "Elkie",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/taylorelkielast.html",
+    "statement": " Hello, ain't got to worry about nothing. I am going home. I hope to see all of ya'll one day. Lord have mercy on my soul. For the Flake family, stay strong. It's bad to see a man get murdered for something he didn't do, but I am taking it like a man, like a warrior. I am going home to Jesus. I love ya'll, peace. Iam ready sir... Don't forget to tell my daughter,,, I am ready, Warden. "
+  },
+  {
+    "lastName": "Wright",
+    "firstName": "Gregory",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/wrightgregorylast.html",
+    "statement": "Yes I do. There has been a lot of confusion on who done this. I know you all want closure. Donna had her Christianity in tact when she died. She never went to a drug house. John Adams lied. He went to the police and told them a story. He made deals and sold stuff to keep from going to prison. I left the house, and I left him there. My only act or involvement was not telling on him. John Adams is the one that killed Donna Vick. I took a polygraph and passed. John Adams never volunteered to take one. I have done everything in my power. Donna Vick helped me; she took me off the street. I was a truck driver; my CDL was still active. Donna gave me everything I could ask for. I helped her around the yard. I helped her around the house. She asked if there were anyone else to help. I am a Christian myself, so I told her about John Adam. We picked him up at a dope house. I did not know he was a career criminal. When we got to the house he was jonesin for drugs. He has to go to Dallas. I was in the bathroom when he attacked. I am deaf in one ear and I thought the T.V. was up too loud. I ran in to the bedroom. By the time I came in, when I tried to help her, with first aid, it was too late. The veins were cut on her throat. He stabbed her in her heart, and that's what killed her. I told John Adams, 'turn yourself in or hit the high road.' I owed him a favor because he pulled someone off my back. I was in a fight downtown. Two or three days later he turned on me. I have done everything to prove my innocence. Before you is an innocent man. I love my famly. I'll be waiting on ya'll. I'm finished talking. "
+  },
+  {
+    "lastName": "Pippin",
+    "firstName": "Roy",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/pippinroylast.html",
+    "statement": " Yes sir,  I charge the people of the jury.  Trial Judge, the Prosecutor that cheated to get this conviction.  I charge each and every one of you with the murder of an innocent man.  All the way to the CCA, Federal Court, 5th Circuit and Supreme Court.  You will answer to your Maker when God has found out that you executed an innocent man.  May God have mercy on you. My love to my son, my daughter, Nancy, Kathy, Randy, and my future grandchildren.  I ask for forgiveness for all of the poison that I brought into the US, the country I love.  Please forgive me for my sins.  If my murder makes it easier for everyone else let the forgiveness please be a part of the healing.  Go ahead Warden, murder me.  Jesus take me home.  "
+  },
+  {
+    "lastName": "Frazier",
+    "firstName": "Derrick",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/frazierderricklast.html",
+    "statement": " Yes I do.  Debbie, my Baby, I love you; do you know I love you.  You are my life.  You are my wife - always stay strong.  Stay strong everybody.  I am innocent.  I am being punished for a crime I did not commit.  I have professed my innocence for nine years, and I continue to say I am innocent.  Let my people know I love them.  We must continue on.  Do not give up the fight; do not give up hope for a better future.  Because we can make it happen.  I love you, I love my son, and I love my daughter.  Bruno, Chuckie, Juanita, Ray - I love you, all of you.  Stay strong baby.  I love you forever.  "
+  },
+  {
+    "lastName": "Reese",
+    "firstName": "Lamont",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/reeselamontlast.html",
+    "statement": " Yeah.  Momma, I just want you to know I love you.  I want all of you to know I love you all.  I am at peace; we know what it is.  We know the truth.  Stay out of crime; there is no point in it.  I am at peace.  We know the truth and I know it.  I have some peace.  I am glad it didn't take that long - no 10 or 20 years.  I am at peace.  And I want everyone to know I did not walk to this because this is straight up murder.  I just want everybody to know I didn't walk to this.  The reason is because it's murder.  I am not going to play a part in my own murder.  No one should have to do that.  I love you all.  I do not know all of your names.  And I don't know how you feel about me.  And whether you believe it or not, I did not kill them.  I just want you all to have peace; you know what I'm saying.  There is no point in that.  It is neither here nor there.  You have to move past it.  It is time to move on.  You know what I'm saying.  I want each one of my loved ones to move on.  I am glad it didn't last long.  I am glad it didn't last long.  I am at peace.  I am at peace to the fullest.  The people that did this - they know.  I am not here to point fingers.  God will let them know.  If this is what it takes, just do what you got to do to get past it.  What it takes.  I am ready, Warden.  Love you all.  Let my son know I love him. "
+  },
+  {
+    "lastName": "Ramirez",
+    "firstName": "Luis",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/ramirezluislast.html",
+    "statement": " Yes I do. I would like to address you first. I did not kill your loved one, but I hope that one day you find out who did. I wish I could tell you the reason why, or give some kind of solace; you lost someone you love very much. The same as my family and friends are going to lose in a few minutes. I am sure he died unjustly, just like I am. I did not murder him; I did not have anything to do with his death. And to you my family and friends, I love you dearly. Even though I die, that love for you will never die. Into Your hands, Lord, I commit my spirit. Thank you. Thank you all. "
+  },
+  {
+    "lastName": "Patterson",
+    "firstName": "Kelsey",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/pattersonkelseylast.html",
+    "statement": "Statement to what.  State What.  I am not guilty of the charge of capital murder.  Steal me and my family's money.  My truth will always be my truth.  There is no kin and no friend; no fear what you do to me.  No kin to you undertaker.  Murderer.  [Portion of statement omitted due to profanity] Get my money.  Give me my rights.  Give me my rights.  Give me my rights.  Give me my life back."
+  },
+  {
+    "lastName": "Willingham",
+    "firstName": "Cameron",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/willinghamcameronlast.html",
+    "statement": "Yeah. The only statement I want to make is that I am an innocent man - convicted of a crime I did not commit. I have been persecuted for 12 years for something I did not do. From God's dust I came and to dust I will return - so the earth shall become my throne. I gotta go, road dog. I love you Gabby. [Remaining portion of statement omitted due to profanity.] "
+  },
+  {
+    "lastName": "Lagrone",
+    "firstName": "Edward",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/lagroneedwardlast.html",
+    "statement": "Yes.  I just want to say I am not sad today or bitter with anybody.  Like I've said from day one, I did not go in there and kill them - but I am no better than those that did.  Jesus is Lord.  "
+  },
+  {
+    "lastName": "Duncan",
+    "firstName": "Richard",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/duncanrichardlast.html",
+    "statement": "I did have, but now I see my family here and everything - all I want to say is I love you all so much. I am innocent. I love you all so much. You are beautiful. Okay Warden, I am through.  "
+  },
+  {
+    "lastName": "Chappell",
+    "firstName": "William",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/chappellwilliamlast.html",
+    "statement": "Jane, Grace and all of you all, I know you think I did this, and I'm sure you think this is wonderful in you eyes.  But, let me tell you something, there were two DNA tests run and none matched me.  I wanted a third, but that never happened.  Three people at different times confessed to killing these people - your parents.  They did not know me.  My request is that you get yourselves in church and pray for forgiveness because you are murdering me.  I did not kill anyone in my life.  If you will look at your house and the police report, there are several bullet patterns shot into the West wall over the bed and the East wall and North wall and your sister was in the front bedroom while 30 shots were fired.  There's no way in hell she would have laid in that bed.  If you think I did this, you need to think again.  There were three people in the house and have confessed to it.  Larry Ashworth in Fort Worth killed seven people.  All I was asking for was a DNA and I could not get it.  But get in church and get right with God.  Jane, you know damn well I did not molest that kid of yours.  You are murdering me and I feel sorry for you.  Get in church and get saved.  I really don't know what else to tell you.  "
+  },
+  {
+    "lastName": "Ogan",
+    "firstName": "Craig",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/ogancraiglast.html",
+    "statement": " I would like to say first of all the real violent crimes in this case are acts committed by James Boswell and Clay Morgan Gaines. We have the physical evidence to prove fabrication and cover-up. The people responsible for killing me will have blood on their hands for an unprovoked murder. I am not guilty; I acted in self-defense and reflex in the face of a police officer who was out of control. James Boswell had his head beat in; possibly due to this he had problems. My jurors had not heard about that. They did not know he had suffered a head injury from the beating by a crack dealer five months earlier; that he was filled with anger and wrote an angry letter to the Houston Chronicle. He expressed his frustration at the mayor, police chief and fire chief. He was mad at the world. Three and a half months before I worked on a deal with the DEA, the informant was let off. At the moment he left the courtroom, he became angry with me; Officer Boswell was upset about this. Officer Boswell and an angry woman were in the police car and they were talking in raised voices. In other words, Officer Boswell was angry at the time I walked up. Officer Boswell may have reacted to the... (Inmate stopped speaking in mid-sentence.) "
+  },
+  {
+    "lastName": "Patterson",
+    "firstName": "Toronto",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/pattersontorontolast.html",
+    "statement": "I am sorry for the pain: sorry for what I caused my friends, family and loved ones.  I feel a great deal of responsibility and guilt for all this crime.  I should be punished for the crime, but I do not think I should die for a crime I did not commit.  I am sorry, but nothing can bring Kim, Ollie, and Gigi back.  But I pray my death brings peace for my family that may unite the family.  I ask for your forgiveness and that you will all forgive me.  I have no animosity;  I am at peace and invite you all to my funeral.  We are still family.  I love you all, Momma, Aunt Deidra, family and everybody.  I love you.  I am ready, Warden.  "
+  },
+  {
+    "lastName": "Kutzner",
+    "firstName": "Richard",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/kutznerrichardlast.html",
+    "statement": " Well, yes, sir.  Rebecca, I understand that you wanted this day to come, you got what you wanted.  I didn't kill your mother.  The two guys that worked for me killed your mother and they are still out there.  If Mr. McDougal had allowed the DNA evidence, I would be exonerated.  Mr. Tolson, I understand you are out there.  If there is any justice in this world, please use this to keep other people from being where I'm at.  Warden, this is murder just as surely as the people that killed Rebecca's mother.  Send me home.  "
+  },
+  {
+    "lastName": "Coulson",
+    "firstName": "Robert",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/coulsonrobertlast.html",
+    "statement": " I'm innocent. I had nothing to do with my family's murders. I want to thank everyone who has supported me. I hope they continue to fight. You know who you are. That's all. Thank you, Warden.  "
+  },
+  {
+    "lastName": "Tigner",
+    "firstName": "Gerald",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/tignergeraldlast.html",
+    "statement": " Yes.  My last statement.  I was wrongfully convicted of this crime against Michael Watkins and James Williams on 10th Street on August 31, 1993.  I got convicted on a false confession because I never admitted to it, but my lawyer did not put this out to the jury.  I did not kill those drug dealers.  I send love to my family and friends; my east side family and friends.  I am being real with the real.  That's all that counts in my heart.  I will see you later.  That's it. "
+  },
+  {
+    "lastName": "Hill",
+    "firstName": "Mack",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/hillmacklast.html",
+    "statement": "First, I would like to tell my family that I love them. I will be waiting on them. I am fine. I hope that everyone gets some closure from this. I am innocent. Lubbock County officials believe I am guilty. I am not. Travis Ware has the burden on him to prove that he did not commit felonies. He needs to be stopped or he is going to do it time and time again. The power is invested in you as a public official to do your job.  That's all Warden. I love y'all.   June 25, 2008.  "
+  },
+  {
+    "lastName": "Lawton",
+    "firstName": "Stacey",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/lawtonstaceylast.html",
+    "statement": "I am saying, I want y'all to keep your heads up, hold on and stay strong for everybody. I mean ah, I don't want y'all to look at me like I am a killer or something man, cause I ain't no killer. I mean, I didn't, I didn't kill your father. I mean, I know how it look, but I didn't do it. You know what I am saying? You were out there with me, Tommy. I mean, you know man. (mumbled) You know I always did want to say something to y'all. Right? I can't say that I done it because I didn't do it. I've got love for everybody. I am a Christian now. I'm saying I want everybody to keep thier heads up and stay strong. I'm going to stay strong. I'll be seeing you, this is my last breath. Ricky, keep your head up baby. All y'all, Doreen, Melodee. I mean, I know y'all don't come down here. I just really don't know what y'all want me to say. I mean, I know, ah, I mean, I'm sorry anybody, ah, anybody got killed that night. It wasn't supposed to happen, but I didn't do it. I really didn't do it. I don't want y'all to go through life thinking that I did. You know what I am saying? I love everybody and I want y'all to stay strong. Right? It would take me an hour or a long time, man, but, ah, man, I don't want to hold y'all up, man, like that, ah. Y'all just keep your head up and stay strong, man. Give my love to everybody. I love y'all.  "
+  },
+  {
+    "lastName": "Jones",
+    "firstName": "Richard",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/jonesrichardlast.html",
+    "statement": " I want the victim's family to know that I didn't commit this crime. I didn't kill your loved one. Sharon Wilson, y'all convicted an innocent man and you know it. There are some lawyers hired that is gonna prove that, and I hope you can live with it. To my family and loved ones, I love you. Thank you for supporting me. Y'all stay strong. Warden, take me home.  "
+  },
+  {
+    "lastName": "Joiner",
+    "firstName": "Orien",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/joinerorienlast.html",
+    "statement": " Kathy, y'all take and I bless all of you and I am glad I have had y'all in my life. As I have said from the very first thing, I am innocent of this crime and God knows I am innocent and the four people that was murdered know I am innocent and when I get to heaven I'll be hunting you and we'll talk. I feel sorry for the families that's had to suffer and my family and I have 'em all in my prayers. I love you all. Y'all take and y'all look after Sheila and Shannon and them, call 'em and get the pictures to 'em and everything and, ah, again, like I said, I feel sorry for the families, but if it takes my death to make them happy, then I will bless them. I have no hard feelings toward anyone cause the Lord feels that it is my time to come home to Him, my work on earth is done and that, ah, like I said, I am just sorry for, but they will have to go through this one time again, cause sooner or later, whoever did this crime is going to be caught and they'll have to come down here and do this again and they will realize they witnessed an innocent man going to be with Jesus Christ.  "
+  },
+  {
+    "lastName": "Graham",
+    "firstName": "Gary",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/grahamgarylast.html",
+    "statement": " I would like to say that I did not kill Bobby Lambert. That I'm an innocent black man that is being murdered. This is a lynching that is happening in America tonight. There's overwhelming and compelling evidence of my defense that has never been heard in any court of America. What is happening here is an outrage for any civilized country to anybody anywhere to look at what's happening here is wrong.  I thank all of the people that have rallied to my cause. They've been standing in support of me. Who have finished with me.  I say to Mr. Lambert's family, I did not kill Bobby Lambert. You are pursuing the execution of an innocent man.  I want to express my sincere thanks to all of ya'll. We must continue to move forward and do everything we can to outlaw legal lynching in America. We must continue to stay strong all around the world, and people must come together to stop the systematic killing of poor and innocent black people. We must continue to stand together in unity and to demand a moratorium on all executions. We must not let this murder/lynching be forgotten tonight, my brothers. We must take it to the nation. We must keep our faith. We must go forward. We recognize that many leaders have died. Malcom X, Martin Luther King, and others who stood up for what was right. They stood up for what was just. We must, you must brothers, that's why I have called you today. You must carry on that condition. What is here is just a lynching that is taking place. But they're going to keep on lynching us for the next 100 years, if you do not carry on that tradition, and that period of resistance. We will prevail. We may loose this battle, but we will win the war. This death, this lynching will be avenged. It will be avenged, it must be avenged. The people must avenge this murder. So my brothers, all of ya'll stay strong, continue to move forward.  Know that I love all of you. I love the people, I love all of you for your blessing, strength, for your courage, for your dignity, the way you have come here tonight, and the way you have protested and kept this nation together. Keep moving forward, my brothers. Slavery couldn't stop us. The lynching couldn't stop us in the south. This lynching will not stop us tonight. We will go forward. Our destiny in this country is freedom and liberation. We will gain our freedom and liberation by any means necessary. By any means necessary, we keep marching forward.  I love you, Mr. Jackson. Bianca, make sure that the state does not get my body. Make sure that we get my name as Shaka Sankofa. My name is not Gary Graham. Make sure that it is properly presented on my grave. Shaka Sankofa.  I died fighting for what I believe in. I died fighting for what was just and what was right. I did not kill Bobby Lambert, and the truth is going to come out. It will be brought out.  I want you to take this thing off into international court, Mr. Robert Mohammed and all ya'll. I want you, I want to get my family and take this down to international court and file a law suit. Get all the video tapes of all the beatings. They have beat me up in the back. They have beat me up at the unit over there. Get all the video tapes supporting that law suit. And make the public exposed to the genocide and this brutality world, and let the world see what is really happening here behind closed doors. Let the world see the barbarity and injustice of what is really happening here. You must get those video tapes. You must make it exposed, this injustice, to the world. You must continue to demand a moratorium on all executions. We must move forward Minister Robert Mohammed.  Ashanti Chimurenga, I love you for standing with me, my sister. You are a strong warrior queen. You will continue to be string in everything that you do. Believe in yourself, you must hold your head up, in the spirit of Winnie Mandela, in the spirit of Nelson Mandela. Ya'll must move forward. We will stop this lynching.  Reverend Al Sharpton, I love you, my brother.  Bianca Jagger, I love all of you. Ya'll make sure that we continue to stand together. Reverend Jesse Jackson and know that this murder, this lynching will not be forgotten. I love you, too, my brother. This is genocide in America. This is what happens to black men when they stand up and protest for what is right and just. We refuse to compromise, we refuse to surrender the dignity for what we know is right. But we will move on, we have been strong in the past. We will continue to be strong as a people. You can kill a revolutionary, but you cannot stop the revolution. The revolution will go on. The people will carry the revolution on. You are the people that must carry that revolutionary on, in order to liberate our children from this genocide and for what is happening here in America tonight. What has happened for the last 100 or so years in America. This is the part of the genocide, this is part of the African (unintelligible), that we as black people have endured in America. But we shall overcome, we will continue with this. We will continue, we will gain our freedom and liberation, by any means necessary. Stay strong. They cannot kill us. We will move forward.  To my sons, to my daughters, all of you. I love all of you. You have been wonderful. Keep your heads up. Keep moving forward. Keep united. Maintain the love and unity in the community.  And know that victory is assured. Victory for the people will be assured. We will gain our freedom and liberation in this country. We will gain it and we will do it by any means necessary. We will keep marching. March on black people. Keep your heads high. March on. All ya'll leaders. March on. Take your message to the people. Preach the moratorium for all executions. We're gonna stop, we are going to end the death penalty in this country. We are going to end it all across this world. Push forward people. And know that what ya'll are doing is right. What ya'll are doing is just. This is nothing more that pure and simple murder. This is what is happening tonight in America. Nothing more than state sanctioned murders, state sanctioned lynching, right here in America, and right here tonight. This is what is happening my brothers. Nothing less. They know I'm innocent. They've got the facts to prove it. They know I'm innocent. But they cannot acknowledge my innocence, because to do so would be to publicly admit their guilt. This is something these racist people will never do. We must remember brothers, this is what we're faced with. You must take this endeavor forward. You must stay strong. You must continue to hold your heads up, and to be there. And I love you, too, my brother. All of you who are standing with me in solidarity. We will prevail. We will keep marching. Keep marching black people, black power. Keep marching black people, black power. Keep marching black people. Keep marching black people. They are killing me tonight. They are murdering me tonight.  "
+  },
+  {
+    "lastName": "Mason",
+    "firstName": "Thomas",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/masonthomaslast.html",
+    "statement": " I understand that Michael Skains is supposed to be here somewhere. They did everything but make sure I got a fair trial to prove I was innocent. I wasn't the one who had the gun to give to police and all these altered records from the District Attorney's office and the Attorney General's office, that's why Michael Sputnick got fired and ran off when I filed these appeals. Not one of my sell out lawyers would use this evidence, because they all work as a conspiracy with the court. No doubt about it. Jack King did everything he could to keep me from making arms and showing this evidence. They wait till the hearing was over and then make the arguments in the court or on paper where nobody can rebut it or contradict the testimony or arguments. There's more than 30 altered and falsified records saying I told so and so this or that, but you go look in their record, it does not say Thomas Mason called them at all and told them anything. But that's okay. All this evidence is being saved, so Jack King can laugh all he wants like he's the big hero, after this is over with, that's fine. But the person that had the gun, they know was not Thomas Mason, so who's getting the last laugh after all? The guy that got away. But Jack King knows he illegally convicted me of all these falsified altered records. My sister's got the document that my lawyer filed, but he didn't file with the court. It's got the signature on it. He put this all in one record. So it's going to be saved. It ain't going to be destroyed just because I'm dead. Everybody's got to go sooner or later and sooner or later everyone of ya'll will be along behind me. That's all I got to say.  "
+  },
+  {
+    "lastName": "Hughes, Jr.",
+    "firstName": "Billy",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/hughesbillylast.html",
+    "statement": " Yes, I do. I want to tell you all how much I love you all, how much I appreciate everything. I love you all and my family. I treasure every moment that I have had. I want the guys to know out there not to give up, not to give in, that I hope someday the madness in the system, something will come about, something will be resolved.  I would gladly trade the last 24 years if it would bring back Mark Fredericks. Give him back his life, give back my father his life, and my mother her health. All I ask is that I have one day and all the memories of you and my family and all the things that have happened. They are executing an innocent man because things did not happen as they say they happen and there's. The truth will come out someday. I am not the same person as I was 24 years ago. Who would have thought it would have taken 24 years to get to this moment? Don't give up, don't give in. If I am paying my debt to society, I am due a rebate and a refund, but I love you all and you all watch out for Mom and you all keep up, keep going.  Thank you, Warden.  "
+  },
+  {
+    "lastName": "Beathard",
+    "firstName": "James",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/beathardjameslast.html",
+    "statement": " I want to start out by acknowledging the love that I've had in my family. No man in this world has had a better family than me. I had the best parents in the world. I had the best brothers and sisters in the world. I've had the most wonderful life any man could have ever had. I've never been more proud of anybody than I have of my daughter and my son. I've got no complaints and no regrets about that. I love everyone of them and have always been loved all of my life. I've never had any doubts about that. Couple of matters that I want to talk about since this is one of the few times people will listen to what I have to say. The Unites States has gotten to a now where they zero respect for human life. My death is just a symptom of a bigger illness. At some point the government has got to wake up and stop doing things to destroy other countries and killing innocent children. The ongoing embargo and sanctions against places like Iran and Iraq, Cuba and other places. They are not doing anything to change the world, but they are harming innocent children. That's got to stop at some point. Perhaps more important in a lot of ways is what we are doing to the environment is even more devastating because as long as we keep going the direction we're going the end result is it won't matter how we treat other people because everybody on the planet will be on their way out. We have got to wake up and stop doing that. Ah, one of the few ways in the world the truth is ever going to get out, or people are ever going to know what's happening as long as we support a free press out there. I see the press struggling to stay existent as a free institution One of the few truly free institutions is the press in Texas. People like the Texas Observer and I want to thank them for the job they've done in keeping me and everybody else informed. I hope people out there will support them, listen to them and be there for them. Without it, things like this are going to happen and nobody will even know. I love all of you. I always have I always will. I would like to address the State of Texas and specially Joe Price, the District Attorney who put me here. I want to remind Mr. Price of the mistake he made at Gene Hawthorn's trial when he said that Gene Hawthorn was telling the truth at my trial. Mr. Price is a one-eyed hunting dog. He in fact is not a one-eyed hunting dog, and in fact Gene Hawthorn lied at my trial. Everybody knew it. I'm dying tonight based on testimony, that all parties, me, the man who gave the testimony, the prosecutor he used knew it was a lie. I am hoping somebody will call him to the floor for recent comments he's made in the newspaper. It's bad enough that a prosecutor can take truth and spin on it and try to re-doctor it. But when they actually make facts up and present to the public as trial's evidence. That goes beyond fail, that's completely unforgivable and I hope somebody makes Mr. Price account for or explain the tennis shoes he is talking about that put me here. I'm still completely lost on that and I'm hoping that somebody will go back and verify the trial record and make him accountable for lying to the public and the press that way. That's really all I have to say except that I love my family. and nobody, nobody has got a better family than me. I love you booger bear. I love doodle bug, too. Don't let them ever forget me. I'll never forget them. I'll see you on the other side, okay. Bye bye Debbie. Bye bro, bye booger bear. Father Mike, Father Walsh, love you all. That's all, sir.  "
+  },
+  {
+    "lastName": "Vega",
+    "firstName": "Martin",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/vegamartinlast.html",
+    "statement": "I really don’t have much to say. All I want to say is that when the state introduced my sister and my niece as state witnesses, it’s not that they testified against me. The thing is, my lawyers would not subpoena anyone, so they allowed the state to subpoena them to paint a picture to the jury that my own sister and niece was testifying against me.\nLinda is innocent of this. I am innocent of this. Now all you all are seeing in the process a perfect example of ol’ freaky deaky Bill Clinton when he signed that anti-terrorism law to shorten the appeals. This is a conspiracy. They used false testimony of a woman that said I had raped her, when the test showed that the foreign pubic hair that was found on her body belonged to no one in that room. They found a drop of sposmosa in the crotch of her pants that was tied to blood type B. My blood type is A. Now the same woman there they brought to testify against this murder case. That woman was under indictment for possession of methamphetamine, delivery of methamphetamine. She could have gotten out of both of those cases. Yet, she swore under oath that she had never been in trouble with the law and none of that mattered. So what does that make this great state? A very high-priced prostitute that sells itself, called justice, to the highest bidder.\nI am being charged under article 19.83 of the Texas Penal Code of murder with the promise of remuneration. That means they got to have three people, the one that paid, the one that killed, and the deceased. And the alleged remunerator is out on the streets, so how come I’m being executed today, without a remunerator? This is a great American justice. So if you don’t think they won’t, believe me they will. Ain’t no telling who gonna be next. That’s all I have to say. Especially for the people of the deceased, Sims is innocent and so am I. So the murder is still not there. Today you are a witness, the state (cough). Bye."
+  },
+  {
+    "lastName": "Ransom",
+    "firstName": "Kenneth",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/ransomkennethlast.html",
+    "statement": "First and foremost I would like to tell the victims’ families that I am sorry because I don’t feel like I am guilty. I am sorry for the pain all of them have gone through during holidays and birthdays. They are without their loved ones.\nI have said from the beginning and I will say it again that I am innocent. I did not kill no one. I feel like this is the Lord’s will that will be done.\nI love you all. You know it. Don’t cry.\nTell my brothers I love them. You all be strong."
+  },
+  {
+    "lastName": "Johnson",
+    "firstName": "Carl",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/johnsoncarllast.html",
+    "statement": "I want the world to know that I’m innocent and that I’ve found peace. Let’s ride.  "
+  },
+  {
+    "lastName": "Drew",
+    "firstName": "Robert",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/drewrobertlast.html",
+    "statement": "(First two or three words not understood.) I don’t know why Marta Glass wasn’t allowed in here. I love you all. Keep the faith. Remember the death penalty is murder. They are taking the life of an innocent man. My attorney, Ron Kuley [unintelligible], will read my letter at a press conference after this is over. That is all I have to say. I love you all.\n(First two or three words not understood.)"
+  },
+  {
+    "lastName": "Herrera",
+    "firstName": "Leonel",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/hererraleonellast.html",
+    "statement": "I am innocent, innocent, innocent. Make no mistake about this; I owe society nothing. Continue the struggle for human rights, helping those who are innocent, especially Mr. Graham. I am an innocent man, and something very wrong is taking place tonight. May God bless you all. I am ready.  "
+  },
+  {
+    "lastName": "Anderson",
+    "firstName": "Johnny",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/andersonjohnnylast.html",
+    "statement": "I would like to point out that I have written a statement and the Warden will give you a copy. I still proclaim I am innocent, and that’s all I have to say."
+  },
+  {
+    "lastName": "Wyatt, Jr.",
+    "firstName": "William",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/wyattwilliamlast.html",
+    "statement": "Yes I do. I would like to say to my two brother-in-laws and the rest of my family that I would like to thank you for supporting me through all of this. I went home to be with my Father and I went home as a trooper. I would like to say to Damien's family I did not murder your son. I did not do it. I just want you to know that -- I did not murder Damien and would ask for all of your forgiveness and I will see all of you soon. I love you guys. I love you guys. That's it. "
+  },
+  {
+    "lastName": "Nuncio",
+    "firstName": "Paul",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/nunciopaullast.html",
+    "statement": " Verbal: I have a written statement for the press. It will be released as soon as they can. And I also responded to a comment to me from Sandy, daughter of Ms. Farris. I have felt deeply sorry for the deceased. But I'm sorry that I wasn't the one that did it or anything. She will tell you that when she gets a chance to. When the time comes. I just wish just to be patient when the time for each and everyone of ya'll individually have ya'll time. But I'm not putting pressure on either one of ya'll being having any guilt. I just want to say two thing, executing someone that is innocent, cause even though I am. The burden will be wiped away and you will be at ease to know that I know how it is and they will pay for it when their time comes. And all I have to say is that right now I'm sorry that it happened and I was part, not part in it but, part responsible for not properly getting the word out in time to get the right victim or the right convict or the right person that did it. I just wish to say a little prayer for the family for their appearance and forgiveness in this matter. Our Father, who art in heaven, hallowed by thy name. Thy kingdom come, thy will be done, on earth as it is in Heaven. Give this day your daily bread and forgive us our trespasses as we forgive those who trespass against us. Lead us not into temptation, but deliver us from evil. Our Lord, Amen. And ah, don't be surprised if your Mom be the helper of God that would grab my hand and say 'You are now into eternal life with God.' This is her being one of the chosen ones to give as proof of innocence. That's what I meant by telling you I don't mean to injure you anymore. When your time comes that she would let you know, if I was innocent or guilty. That about all I have to say. Love you all. \nWritten: I wish the public to see my point of inside view that the officers of Death Row of the State of Texas. All the years of 5 or 6 years of my first time being locked up for not doing a crime of this sort. Now, officers of Texas TDCJ are of Terrell Unit, Walls Unit and some of Ellis I are just doing their job for their family. Now there are also respectful inmates death row and population that I've meet, now I say to all of you just realizing what crime is about, don't do it. One way I've thought of was having your friends 'inmate' to witness your execution talking about those of population and first timers. I just want to give those officers that respected me while in prison of TDCJ Death Row. May God bless you all of TDCJ and inmates especially the free-world population. With Gods and my words of faith, Paul Selso Nuncio.  "
+  },
+  {
+    "lastName": "Jackson",
+    "firstName": "Tommy",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/jacksontommylast.html",
+    "statement": " Yes sir, I would like to address the Robinson family. There is nothing I can say here or anything I could probably do. Now you are all probably mad at me and I would probably be in the same situation you all in if anybody I thought killed anybody in my family ahh. If I knew who killed Rosalyn I would let you know, but, I am going to say this: I am going to heaven with God as my witness. Ros was a personal friend of mine. She was a beautiful person, very educated, her. I'm very tight with the Robinson family. She was proud that she had a father that was a doctor. My family is not here present and that is by my wish and my wish only. Now the tables is turned. You are all here, the Robinson family is her to see me executed. That is something that I would not want for my family. In no form or fashion would I have ever want to see Rosalyn dead. I left the scene of where the incident happened. I guarantee you if I would have been there you would not be standing where you are if I would have been there. You all have some very serious look on your face and something very serious fixin' to happen now. I will say this on my own behalf but then again I know it is not going to make any difference but what you fixing to witness is not a nice thing. It's not nice. It's not nice. The media. I would just like to address to the media with everybody's permission. I would like to say before I go that it has been said that I have shown no remorse, but if you look at my record and my background, ask anybody that know me that in order for me to show any kind of remorse for killing that ever been done, this one time I can't show no remorse for something that I did not do and if I did I would be faking. I would totally be faking and believe me there is nothing fake about me. Nothing fake. I've done wrong, sure, I've paid the time. This is one time that I know I cannot show no remorse for something that I did not do. I am at peace, please believe me. Wherefore, I figure that what I am dying for now is what I have done in my past. This is what I am dying for. Not for killing Rosalyn. I don't know what ya'll call her but I call her Ros, I call her Ros. That's it.  "
+  },
+  {
+    "lastName": "Boyd",
+    "firstName": "Charles",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/boydcharleslast.html",
+    "statement": "I want you all to know I did not do this crime. I wanted to wait for a thirty day stay for a DNA test so you know who did the crime."
+  },
+  {
+    "lastName": "Rector",
+    "firstName": "Charles",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/rectorcharleslast.html",
+    "statement": "The first statement I would like to make it’s my sister. I want her to know that every thing that is said, every move that is made, every motion, I hold it true to my heart. I hold it in my soul.\nI want you to know that I am not guilty and I will say this to the family. I did not kill your daughter. Take it the way you want. Sorry for the pain.\nSister, I love you and will be there with you, to help you. I want to talk to you about being there by her. You know what I am saying. I want to thank you, thank you for the words. The dying words, you know. They mean a lot. Make sure he knows what I want him to know.\nI want to quote a song that I wrote called 'God Living with Us 24 Hours.' It goes:\nTell the kids I love them and I’ll be there. That’s all I have to say."
+  },
+  {
+    "lastName": "Muniz",
+    "firstName": "Pedro",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/munizpedrolast.html",
+    "statement": "I know you can’t hear me now but I know that it won’t matter what I have to say.\nI want you to know that I did not kill your sister. If you want to know the truth, and you deserve to know the truth, hire your own investigators.\nThat’s all I have to say."
+  },
+  {
+    "lastName": "McFarland",
+    "firstName": "Frank",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/mcfarlandfranklast.html",
+    "statement": "I owe no apologies for a crime I did not commit. Those who lied and fabricated evidence against me will have to answer for what they have done. I know in my heart what I did and I call upon the spirit of my ancestors and all of my people and I swear to them and now I am coming home.  "
+  },
+  {
+    "lastName": "Johnson",
+    "firstName": "Eddie",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/johnsoneddielast.html",
+    "statement": "I would like to say to the Magee family and the Cadena family that I was friends with David and Virginia and I did not commit this offense.\nI have tried to do something to compensate the families by writing a book. I would like for the proceeds to go to the Magee family and the Cadena family.\nThere is someone who will be contacting them or they can get in touch with my attorney.\nI would like to thank you for standing by me and loving me and carry my best to my 'sun,' my butterfly.\nGoodbye, sun, I love you."
+  },
+  {
+    "lastName": "Losada",
+    "firstName": "Davis",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/losadadavislast.html",
+    "statement": "Yes, I do.\nIf it matters to anyone, I did not kill Olga.\nBrian, thank you for caring.\nDee Dee, you have been a good sister to all of us.\nAna and Chico (not sure of name he said), trust in God.\n(not sure of name he said)\nI will always love you, Lynn. I will always love you.\nO.K., Warden."
+  },
+  {
+    "lastName": "Westley",
+    "firstName": "Anthony",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/westleyanthonylast.html",
+    "statement": "I want you to know that I did not kill anyone. I love you all. (Inmate’s words were not clear)\n(Inmate’s words were not clear)"
+  },
+  {
+    "lastName": "Jacobs",
+    "firstName": "Jesse",
+    "link": "https://www.tdcj.texas.gov/death_row/dr_info/jacobsjesselast.html",
+    "statement": "I have committed lots of sin in my life, but I am not guilty of this crime.\nI would like to tell my son, daughter and wife that I love them –\nEden, if they want proof of them, give it to them. Thanks for being my friend.  "
+  }
+]
